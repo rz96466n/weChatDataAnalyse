@@ -1,5 +1,5 @@
 # wechatDataAnalyse
-This project will allow you to analyse basic wechat  Data.      # was did in the winter where most of my friends are gone
+This project will allow you to analyse basic wechat  Data.      # was did in the winter when most of my friends are gone
 I use coule of basic package. Under'pyechart, I used couple of extends package.
 -pip install pandas 
 -pip install requests
