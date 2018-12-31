@@ -5,6 +5,8 @@ I use coule of basic package, and I used couple of extends package, which are no
 
 -pip install pandas 
 
+-pip install json
+
 -pip install requests
 
 -pip install pyechart
