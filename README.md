@@ -9,11 +9,11 @@ I use coule of basic package, and I used couple of extends package, which are no
 
 -pip install requests
 
--pip install pyechart
+-pip install pyechart   
 
 -pip install itchat
 
--pip install json
+
 
 *dowandload the repositories and run the WechatInfo.py
 
