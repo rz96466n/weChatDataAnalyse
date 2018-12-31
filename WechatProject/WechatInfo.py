@@ -8,7 +8,7 @@ WechatProject.database.databaseconnection()
 import pandas as pd
 import numpy as np
 import WechatProject.rawdata
-import WechatProject.translatort
+import WechatProject.translator
 from pyecharts import Page
 import WechatProject.datavisualization
 
