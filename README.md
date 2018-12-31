@@ -15,5 +15,5 @@ I use coule of basic package, and I used couple of extends package, which are no
 *dowandload the repositories and run the WechatInfo.py
 
 
-We use WeChat everyday, however have you wonder how many friends in your contract? Where are they? Which city or states are most of your friend from?
+We use WeChat everyday, however have you wonder how many friends in your contract? Where are they? Which cities or states are most of your friend from?
 I will contiune making interesting graph and hope you like it.
