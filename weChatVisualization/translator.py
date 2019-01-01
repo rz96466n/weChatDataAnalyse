@@ -27,7 +27,7 @@ def translate(word):
             # 判断服务器是否相应成功
             if response.status_code == 200:
                 # 然后相应的结果
-                print(response.text)
+                # print(response.text)
                 result=json.loads(response.text)
 
                 result = result['translateResult'][0][0]['tgt'].capitalize()
@@ -47,7 +47,8 @@ def translate(word):
 #     print ("翻译结果为：%s" % result['translateResult'][0][0]['tgt'])
 #
 
-import pandas as pd
-df=pd.DataFrame({'a':['Chinese','New York','日本']})
-print(df['a'])
-translate('中国')
+# import pandas as pd
+# df=pd.DataFrame({'a':['Chinese','New York','日本']})
+# print(df['a'])
+# a=['中国']
+# print(translate(a))
