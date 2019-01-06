@@ -9,9 +9,7 @@ def translate(word):
     # 传输的参数，其中 i 为需要翻译的内容
     list = []
     for i in word:
-        if i =='NaN':
-            list.append(i)
-        else:
+
             key = {
                 'type': "ZH_CN2EN",
                 'i': i,
@@ -29,7 +27,7 @@ def translate(word):
                 # 然后相应的结果
                 # print(response.text)
                 result=json.loads(response.text)
-
+                # print(response.text)
                 result = result['translateResult'][0][0]['tgt'].capitalize()
                 list.append(result)
 
@@ -40,15 +38,8 @@ def translate(word):
     # print(list)
     return list
 
-# def get_reuslt(repsonse):
-#
-#     result = json.loads(repsonse)
-#     print ("输入的词为：%s" % result['translateResult'][0][0]['src'])
-#     print ("翻译结果为：%s" % result['translateResult'][0][0]['tgt'])
-#
 
-# import pandas as pd
-# df=pd.DataFrame({'a':['Chinese','New York','日本']})
-# print(df['a'])
-# a=['中国']
-# print(translate(a))
+
+if __name__=='__main__':
+    a=['中国','河北','China']
+    translate(a)

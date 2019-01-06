@@ -1,0 +1,16 @@
+This Package mainly import all your contract info into MYSQL DB
+
+<--------! Package: MySQLClient  ==1.3.12-----!> do not use the newest version of MySQLClient
+
+The newest version did not interact with python3.6 very good
+
+<------------! MYSQL str code== utf8mb4--------!>
+
+I set str code == utf8mb4, and make sure you restart your mysql after run the dbconnection.
+
+* utf8mb4 == 'UTF-8', !='UTF8'. There are huge differents between'UTF-8' and 'UTF8'.
+
+SQL info is inside 'wechatdb.sql'
+
+Enjoy!
+

@@ -3,8 +3,8 @@
 # userName=(user[0]['UserName'])
 # itchat.send('hello',toUserName=userName)
 
-import weChatVisualization.database
-weChatVisualization.database.databaseconnection()
+import weChatVisualization.dataconnection
+weChatVisualization.dataconnection.databaseconnection()
 import pandas as pd
 import numpy as np
 import weChatVisualization.rawdata
